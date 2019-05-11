@@ -53,7 +53,6 @@ namespace nsGH2
             DA.SetData(3, Math.Tan(angle));
             //throw new NotImplementedException();
         }
-
         public override Guid ComponentGuid
         {
             get { return new Guid("178b4e5b-b0d6-43a5-a8a7-09f6adafdcc2"); }
