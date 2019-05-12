@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="comp2.cs" />
     <Compile Include="comp3.cs" />
+    <Compile Include="comp4.cs" />
     <Compile Include="nsGH2Component.cs" />
     <Compile Include="nsGH2Info.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

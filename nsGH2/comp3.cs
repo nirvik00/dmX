@@ -41,11 +41,8 @@ namespace nsGH2
         protected override void SolveInstance(IGH_DataAccess DA)
         {
             List<double> values = new List<double>();
-            if ((!DA.GetDataList(0, values)))
-                return;
-            if ((values.Count == 0))
-                return;
-
+            if ((!DA.GetDataList(0, values))) return;
+            if ((values.Count == 0)) return;
             if ((Absolute))
             {
                 for (Int32 i = 0; i < values.Count; i++)
