@@ -11,7 +11,7 @@ namespace nsGH2
         public comp2()
           : base("comp2", "c2",
               "dmX-test for multiple components in tab",
-              "dmX", "test-2")
+              "dmX", "geom-test")
         {
         }
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
@@ -75,7 +75,7 @@ namespace nsGH2
         {
             get
             {
-                return null;
+                return new System.Drawing.Bitmap("C:/Users/Nirvik Saha/Documents/Visual Studio 2017/Projects/nsGH2/nsGH2/bin/icon.png");
             }
         }
 

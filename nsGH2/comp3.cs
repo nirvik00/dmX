@@ -27,7 +27,7 @@ namespace nsGH2
         public comp3()
           : base("comp3", "Nickname",
               "Description",
-              "dmX", "test-3")
+              "dmX", "test")
         {
         }
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
@@ -58,7 +58,7 @@ namespace nsGH2
         {
             get
             {
-                return null;
+                return new System.Drawing.Bitmap("C:/Users/Nirvik Saha/Documents/Visual Studio 2017/Projects/nsGH2/nsGH2/bin/icon.png");
             }
         }
         public override Guid ComponentGuid
